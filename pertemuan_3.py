@@ -51,7 +51,8 @@ halo_dunia()  # --> return: will operate the 'halo_dunia()' function
 
 
 def perkenalan(nama, asal):
-    print(f"Perkenalkan saya {nama} dari {asal}")
+    '''print(f"Perkenalkan saya {nama} dari {asal}")'''
+    print("Perkenalkan saya", nama, "asal", asal)
 
 
 # --> call 'perkenalan' function + add parameter value
